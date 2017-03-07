@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Aula Tabela</title>
+    <link rel="stylesheet" href="CssTable" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <table>
+      <caption>Minha tabela </caption>
+      <thead>
+        <tr>
+          <th>Cab 1</th>
+          <th>Cab 2</th>
+          <th>Cab 3</th>
+          <th>Cab 4</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>L1-C1</td>
+          <td>L1-C2</td>
+          <td rowspan="3" colspan="2">L1-C3</td>
+        </tr>
+        <tr>
+          <td>L1-C1</td>
+          <td>L1-C2</td>
+
+        </tr>
+        <tr>
+          <td>L1-C1</td>
+          <td>L1-C2</td>
+
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Rodapé 2</td>
+          <td>Rodapé 1</td>
+          <td>Rodapé 4</td>
+        </tr>
+      </tfoot>
+    </table>
+
+  </body>
+</html>

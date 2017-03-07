@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FORMS</title>
+    <style media="screen">
+      .erro{
+        border: 4px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <form name="dados" method="post" onsubmit="return validar()">
+      <label>Nome:</label><br>
+      <input type="text" name="nome" onblur="validaNome()" ><br>
+      <label>CPF:</label><br>
+      <input type="text" name="cpf" onblur="validaCPF()"><br>
+      <label>Idade:</label><br>
+      <input type="text" name="idade"><br><br>
+
+      <input type="submit" name="button" value="Enviar Dados">
+    </form>
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="script.js" ></script>
+  </body>
+</html>

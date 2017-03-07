@@ -1,0 +1,393 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	width: 100%;
+	height: 228px;
+	min-width: 650px;
+	background-image: url("DW.PNG");
+	background-color: black;
+	background-size: 100% 240px;
+  background-repeat: no-repeat;
+}
+.Logo{
+	height: 25%;
+}
+
+/*Menu*/
+nav{
+	width: 100%;
+	height: 50px;
+}
+
+.Menu{
+	background-color: #7126bd;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 100%;
+	float: left;
+	border-right: 1px solid black;
+	box-sizing: border-box;
+}
+
+.Home{
+color: #a6b8c7;
+text-decoration: none;
+width: 20%;
+height: 100%;
+float: left;
+border-right: 1px solid black;
+box-sizing: border-box;
+font-size: 2rem;
+}
+
+.Home:hover{
+	background-color: #152fb6;
+  color: white;
+}
+
+.Doutores{
+text-decoration: none;
+width: 20%;
+height: 100%;
+float: left;
+border-right: 1px solid black;
+box-sizing: border-box;
+font-size: 2rem;
+color: #a6b8c7;
+}
+
+.Doutores:hover{
+	background-color:	#152fb6;
+  color: white;
+}
+
+.Historia{
+text-decoration: none;
+font-size: 2rem;
+width: 20%;
+height: 100%;
+float: left;
+border-right: 1px solid black;
+box-sizing: border-box;
+color: #a6b8c7;
+}
+
+.Historia:hover{
+	background-color:	#152fb6;
+  color: white;
+}
+
+.DW_Classic{
+text-decoration: none;
+width: 20%;
+height: 100%;
+float: left;
+border-right: 1px solid black;
+box-sizing: border-box;
+font-size: 1.6rem;
+color: #a6b8c7;
+}
+
+.DW_Classic:hover{
+	background-color:	#152fb6;
+  color: white;
+}
+
+.DW_2005{
+text-decoration: none;
+width: 20%;
+height: 100%;
+float: left;
+border-right: 1px solid black;
+box-sizing: border-box;
+font-size: 2rem;
+color: #a6b8c7;
+}
+
+.DW_2005:hover{
+	background-color:	#152fb6;
+  color: white;
+}
+
+/*header*/
+
+body {
+	background-image: url("Fundo.gif");
+	background-color: black;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+}
+
+.Introducao {
+	margin-top: 20px;
+	margin-left: 2rem;
+	height: 500px;
+	color: white;
+	width: 64%;
+	border: 2px solid black;
+	background-color: #808080;
+}
+
+.IntroH1{
+	background-color:#2a77bf;
+	height: 48px;
+}
+
+.Introducao h1{
+	margin-left: 20px;
+	color: #000000;
+	height: 48px;
+	font-size: 248%;
+}
+
+.video{
+	position: relative;
+	width: 70%;
+  height: 400px;
+}
+
+.Intro{
+	padding-top: 10px;
+	padding-left: 72%;
+	font-size: 113%;
+}
+
+/*Direita*/
+aside{
+	width: 30%;
+	height: 1268px;
+	background: #2a77bf;
+	float: right;
+}
+
+.Search{
+padding-left: 38px;
+padding-top: 20px;
+}
+
+input[type=text]{
+  width: 78%;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 6px;
+	font-size: 2rem;
+	padding: 12px 20px 12px 74px;
+}
+
+input[type=submit]{
+	border-right: 4px;
+	border-radius: 6px;
+	background-color: white;
+	background-image: url('Apps-Search-icon.png');
+	background-size: 64px 64px;
+	background-repeat: no-repeat;
+	width: 1%;
+	font-size: 2rem;
+	padding: 12px 20px 12px 48px;
+}
+
+input[type=submit]:hover{
+	background-color: #152fb6;
+}
+
+.ULTNoticias{
+	margin-top: 28px;
+	margin-left: 38px;
+	height: 500px;
+	color: white;
+	width: 88%;
+	border: 2px solid black;
+	background-color: #808080;
+}
+
+.ULNH1{
+	color:	#000000;
+	background-color:	#7126bd;
+	height: 48px;
+}
+
+.ULTNoticias h1{
+	margin-left: 20px;
+	color:	#000000;
+	background-color:	#7126bd;
+	height: 48px;
+	font-size: 248%;
+}
+
+.Noting{
+	text-align: center;
+	font-size: 200%;
+}
+
+.Images img{
+	margin-top: 20px;
+	margin-left: 38px;
+	height: 40%;
+	width: 40%;
+}
+
+/*Embaixo*/
+.Esquerda {
+	box-sizing: padding-box;
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 2rem;
+	margin-right: 68%;
+	height: 680px;
+	color: white;
+	width: 31%;
+	border: 2px solid black;
+	background-color: #808080;
+}
+
+.T1H1{
+	color:	#000000;
+	background-color:	#7126bd;
+	height: 48px;
+}
+
+.D1H2{
+	height: 60%;
+	margin-top: 8px;
+	margin-left: 20px;
+}
+
+.M1MA h3{
+ margin-left: 20px;
+ text-align: center;
+ background-color: #2a77bf;
+ margin-right: 20px;
+}
+
+.M1MA{
+	position: absolute;
+	margin-left: 12px;
+  margin-right: 68%;
+	background-color: #2a77bf;
+}
+
+.Esquerda h1{
+	margin-left: 20px;
+	color:	#000000;
+	background-color:	#7126bd;
+	height: 48px;
+	font-size: 248%;
+}
+
+.Direita {
+	position: absolute;
+	margin-top: 20px;
+	margin-left: 34%;
+	margin-right: 38%;
+	height: 680px;
+	color: white;
+	width: 31.5%;
+	border: 2px solid black;
+	background-color: #808080;
+}
+
+.T2H1{
+	color:	#000000;
+	background-color:	#7126bd;
+	height: 48px;
+}
+
+.D2H2{
+	height: 60%;
+	margin-top: 8px;
+	margin-left: 20px;
+}
+
+.M2MA{
+	position: absolute;
+	margin-left: 12px;
+  margin-right: 68%;
+	background-color: #2a77bf;
+}
+
+.Direita h1{
+	color:	#000000;
+	background-color:	#7126bd;
+	height: 48px;
+	font-size: 248%;
+}
+/*Testo*/
+.Testo1{
+ height: 228px;
+}
+
+.Testo2{
+ height: 228px;
+}
+/*Leia Mais*/
+.LM1{
+	float: right;
+	background-color: #152fb6;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.LM1:hover{
+	background-color:	#b00606;
+  color: white;
+}
+
+.LM2{
+	float: right;
+	background-color: #152fb6;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.LM2:hover{
+	background-color:	#b00606;
+  color: white;
+}
+
+.Trailer{
+	    position: relative;
+	    width: 80%;
+	    height: 60%;
+}
+
+.TrailerEs{
+	    position: relative;
+	    width: 80%;
+	    height: 60%;
+}
+
+/*Pe*/
+footer{
+	margin-top: 748px;
+	width: 100%;
+	height: 40px;
+	background-color: #7126bd;
+	background-image: url("DW.PNG");
+}
+
+.Autor{
+  color: white;
+	float: right;
+}

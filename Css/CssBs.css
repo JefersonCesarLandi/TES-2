@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	width: 100%;
+	height: 248px;
+	min-width: 650px;
+	background-image: url("S.jpg");
+	background-color: black;
+	background-size: 100% 280px;
+  background-repeat: no-repeat;
+}
+.Logo{
+	height: 25%;
+}
+
+.Logo2 img{
+  position: absolute;
+  top: 0;
+  right: 16px;
+  float: right;
+  width: 25%;
+  height: 260px;
+}
+
+body {
+	background-color: black;
+}
+
+.Body{
+  min-height: 200px;
+  margin-right: 8%;
+  margin-bottom: 80px;
+  	margin-top: 80px;
+  	margin-left: 8%;
+  	color: white;
+  	width: 84%;
+  	border: 2px solid black;
+  	background-color: #808080;
+  }
+
+  .CI h1{
+    color: #000000;
+    height: 48px;
+    font-size: 248%;
+    background-color:#2a77bf;
+    height: 48px;
+  }
+
+footer{
+	margin-top: 40px;
+	width: 100%;
+	height: 120px;
+	background-color: white;
+  background-position: center;
+	background-image: url("R.jpg");
+  background-size: 80% 120px;
+  background-repeat: no-repeat;
+}

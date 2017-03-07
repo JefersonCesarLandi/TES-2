@@ -1,0 +1,52 @@
+h1{
+	text-align: center;
+}
+
+.int{
+	font-family: Arial;
+}
+
+.int2{
+	font-family: Times ;
+}
+
+.Produto{
+	font-weight: bold;
+}
+
+.Nomes{
+	text-decoration: underline;
+}
+
+.Company{
+	font-style: italic;
+}
+
+.Time{
+	font-family: Courier;
+}
+
+.CS{
+	color: #0000ff;
+}
+
+.END{
+	font-size: 30px;
+	color: #ff0000;
+}
+
+.CP{
+	color: #ff0000;
+}
+
+.F{
+	color: #0000ff;
+}
+
+.V{
+	color: #00FF00;
+}
+
+.CFA{
+	background-color:#FFFF66;
+}

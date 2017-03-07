@@ -1,0 +1,20 @@
+a:link{
+	font-size:30px;
+	text-decoration: none;
+	color: #falc0c;
+}
+
+a:hover{
+	font-size: 100px;
+	text-decoration: underline;
+	color:#10e948;
+}
+
+a:visited{
+	color: #000;
+	text-decoration: line-through;
+}
+
+a:active{
+	color: blue;
+}

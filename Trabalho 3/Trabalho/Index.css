@@ -1,0 +1,27 @@
+.Introduçao{
+	text-align: justify;
+	font-family: Times;
+	font-size: 20px;
+}
+h1{
+	text-align: center;
+	font-family: Times;
+}
+.Links{
+	text-align: center;
+	font-family: Times;
+}
+img {
+    float:left;
+    margin:0 20px 10px 0;
+    max-width:300px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+  }
+.Data{
+	background-color:#58D3F7;
+}
+.trabalho{
+	text-decoration: underline;
+}

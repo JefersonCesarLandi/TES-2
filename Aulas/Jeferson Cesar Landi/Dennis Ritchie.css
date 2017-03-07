@@ -1,0 +1,52 @@
+h1 { 
+     color: blue;
+     text-align: center;
+     font-style: italic;
+}
+h2 { 
+     color: blue;
+     text-align: center;
+     font-style: italic;
+}
+.all {
+	text-align: justify;
+}
+.p1 {
+	font-family: arial;
+	color: purple;
+	font-weight: bold;
+}
+.p2 {
+	font-family: courier;
+	font-size: 15px;
+	color: red;
+	text-transform: capitalize;
+}
+.p3 {
+	font-family: times;
+	font-size: 18px;
+	color: brown;
+	font-style: italic;
+}
+.p4 {
+	font-family: Times;
+	color: blue;
+	text-transform: uppercase;
+}
+.p5{
+	font-family: Impact;
+	color: DarkGreen;
+	text-decoration: underline;
+}
+.P4I{
+	font-size: 25px;
+	color: black;
+	font-style: italic;
+	font-weight: bold;
+}
+.S{
+
+}
+body{
+	background-image:url(fundo.jpg);
+}

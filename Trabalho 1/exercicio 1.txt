@@ -1,0 +1,91 @@
+Formate o seguinte texto seguindo as regras a seguir:
+
+Anos devem ser informados como elementos time;
+Produtos desenvolvidos em cada ano deve ser apresentado em negrito;
+Nome de pessoas que desenvolveram produtos em cada ano deve ser apresentado sublinhado;
+Empresas que desenvolveram produtos em cada ano deve ser apresentado em itálico;
+O título "Informática e História da Informática" deve ser o título principal
+Introdução é um subtítulo, formate adequadamente.
+O primeiro parágrafo está formatado com fonte Arial
+O segundo parágrafo está formatado com fonte Times
+As datas estão formatadas com fonte Courier
+"Voce sabia?" é um subtítulo formato na cor azul
+Abaixo esta formatado com tamanho 30px e cor vermelha
+Mude a cor e marque pontos importantes do texto, a sua escolha. 
+
+
+Informática e História da Informática
+ 
+Introdução 
+
+Com o crescimento populacional, a globalização e o desenvolvimento do capitalismo no século XX, surgem novas necessidades para o ser humano. A quantidade de dados e informações para serem armazenas e computadas atinge um volume incalculável. A informática surge neste contexto: superar a necessidade do ser humano de registrar e manipular dados em grandes quantidades com precisão e rapidez.
+ 
+Segue abaixo um histórico do desenvolvimento da informática e das tecnologias ligadas a computação em geral.
+
+1622 - O matemático inglês William Oughtred desenvolve a primeira régua de cálculo.
+
+1642 - O pesquisador francês Blaise Pascal cria a primeira calculadora.
+
+1822 - O matemático inglês Charles Babbage projeta  um computador mecânico, porém este não saiu do papel.
+
+1847 - É criado o sistema binário pelo matemático inglês George Boole.
+
+1880 - O norte-americano Herman Hollerith cria um processador de dados eletromecânico. O sistema usava cartões perfurados para inserir dados.
+
+1930 - Nos Estados Unidos, o engenheiro eletricista Vannevar Bush desenvolve um computador usando válvulas de rádio.
+
+1946 - Os engenheiros norte-americanos John William Mauchly  e John Presper Eckart Jr desenvolvem o Eniac, o primeiro computador eletrônico. O Eniac foi desenvolvido para servir aos interesses bélicos dos EUA na II Guerra Mundial. Serviu para fazer os cálculos no desenvolvimento da bomba atômica.
+
+1954 - A empresa eletrônica Texas Instruments fabrica o transistor usando silício.
+
+1956 - Surge, no MIT - Instituto de Tecnologia de Massachusetts - o primeiro computador que utiliza transistores.
+
+1963 - Douglas Engelbart  patenteia o mouse.
+
+1964 - Paul Baran, pesquisador norte-americano, projeta e cria a primeira rede de computadores interligada por fios.
+
+1966 - A IBM desenvolve o Ramac 305, utilizando discos de memória com capacidade de 5 megabits.
+
+1968 - Douglas Engelbart cria um sistema com mouse, teclado e janelas ( windows ).
+
+1971 - A Intel cria o MCS-4, primeiro microcomputador pessoal com o processador 4004.
+
+1972 - A empresa Atari cria o primeiro videogame com o jogo Pong.
+
+1975 -  desenvolvem a linguagem Basic, primeira linguagem para microcomputadores,  . As linguagens anteriores eram adequadas aos grandes e médios computadores.
+
+1975 - Bill Gates e Paul Allen fundam a Microsoft.
+
+1976 - Steve Wozniak e Steve Jobs projetam e desenvolvem o micro Apple I. No mesmo ano a dupla a Apple Computer Company.
+
+1981 - A IBM lança o micro PC 5150.
+
+1985 - A Microsoft o sistema operacional Windows e o Word 1.0 (primeira versão do processador de textos).
+
+1989 - Tim Berners-Lee , pesquisador europeu cria a World Wide Web (WWW) que origina a Internet.
+
+1991 -  Linus Torvald  lança o sistema operacional Linux com código-fonte aberto.
+
+1992 - A empresa americana Microsoft lança o sistema operacional Windows 3.1. A nova versão do Windows incorpora tecnologias voltadas para a utilização de CD-Roms.
+
+1993 - Surge o primeiro browser, o NCSA Mosaic.
+
+1993 - A empresa de processadores Intel coloca no mercado o processador Pentim.
+
+1994 -  É criado o navegador de internet Netscape Navigator.
+
+1995 - Chega ao mercando o Windows 95, trazendo incorporado o navegador Internet Explorer.
+
+1995 - Criada a linguagem Java pela Sun Microsystems.
+
+1997 - Garri Kasparov, campeão mundial de xadrez, perde pra o computador Deep Blue da IBM.
+
+1997 - Justin Fraenkel desenvolve o Winamp, programa utilizado para ouvir músicas no formato MP3.
+
+1998 - A Microsoft lança no mercado o Windows 98.
+
+1999 - A Intel lança no mercado o processador Pentium III.
+ 
+Você sabia?
+
+- Comemora-se em 15 de agosto o Dia da Informática.

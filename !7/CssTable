@@ -1,0 +1,10 @@
+td{
+  border: 1px solid black;
+}
+th{
+  border: 1px solid blue;
+}
+
+table{
+  border: 1px solid #088A68;
+}

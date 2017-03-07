@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Intercambio</title>
+		<link rel="stylesheet" href="CssBs.css" media="screen" title="no title">
+		<style>
+			.erro{
+				border: 2px solid red;
+			}
+			.certo{
+				border: 2px solid green;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+      <div class="Logo">
+        <img src="./Logo.PNG" alt="TII" />
+      </div>
+      <div class="Logo2">
+        <img src="./LogoM.png" alt="TII" />
+      </div>
+    </header>
+	<div class="Body">
+		<div class="CI"><h1>Cadastro Para intercambio</h1></div>
+		<form name="dados" method="post" onsubmit="return validar()">
+			<label>Nome:</label><br>
+			<input type="text" name="nome" onblur="validaNome()" /><br>
+			<label>Idade:</label><br>
+			<input type="number" name="idade" onblur="validaIdade()" /><br>
+			<label>Email:</label><br>
+			<input type="text" name="Email" onblur="validaEmail()" /><br>
+			<label>Telefone:</label><br>
+			<input type="Number" name="Phone" onblur="validaPhone()" /><br>
+			<br>
+			<label>País:</label><br>
+			<select name="paises" onchange="validaPais()">
+				<option value="">Selecione um Estado do Brasil</option>
+				<option value="Go">Go</option>
+				<option value="AC">AC</option>
+				<option value="AL">AL</option>
+				<option value="AP">AP</option>
+				<option value="AM">AM</option>
+				<option value="BA">BA</option>
+				<option value="CE">CE</option>
+				<option value="DF">DF</option>
+				<option value="ES">ES</option>
+				<option value="MA">MA</option>
+				<option value="MT">MT</option>
+				<option value="MS">MS</option>
+				<option value="MG">MG</option>
+				<option value="PA">PA</option>
+				<option value="PB">PB</option>
+				<option value="PR">PE</option>
+				<option value="PI">PI</option>
+				<option value="RJ">RJ</option>
+				<option value="RN">RN</option>
+				<option value="RS">RS</option>
+				<option value="RO">RR</option>
+				<option value="SC">SC</option>
+				<option value="SP">SP</option>
+				<option value="SE">SE</option>
+				<option value="TO">TO</option>
+			</select><br><br>
+			<div class="sexo">
+				<label>Sexo:</label><br>
+				 <input type="radio" name="sexo" value="F" />Feminino<br>
+				 <input type="radio" name="sexo" value="M" />Masculino<br>
+				 <input type="radio" name="sexo" value="O" />Outro<br>
+			</div>
+
+			<br>
+			<div class="idioma">
+				<label>Idiomas:</label><br>
+				<input type="checkbox" name="idioma" value="EN"> Inglês <br>
+				<input type="checkbox" name="idioma" value="PT-BR"> Português Brasil <br>
+				<input type="checkbox" name="idioma" value="PT"> Português Portugal <br>
+				<input type="checkbox" name="idioma" value="IT"> Italiano <br>
+				<input type="checkbox" name="idioma" value="JP"> Japones <br>
+				<input type="checkbox" name="idioma" value="FI"> Finlandes <br>
+			</div>
+			<br>
+			<input type="submit" name="button" value="Enviar Dados">
+		</form>
+		</div>
+		<script src="scripts.js" type="text/javascript"></script>
+	</body>
+	<footer><div class="Autor">JefersonCesarLandi</div></footer>
+</html>

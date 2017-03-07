@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulario</title>
+  </head>
+  <body>
+
+    <label>Formulario</label><br />
+
+   <form action="http://www.fORMULARIO_Bimestral.Net" method="post">
+
+    <fieldset>
+
+    <legend>Dados Pessoais</legend>
+
+    <p>Nome <input type="Text" name="Nome" required /> </p>
+    <p>E-mail <input type="email" name="email" required /> </p>
+    <p>CPF <input type="text" name="CPF" required /></p>
+    <p>Data de Nascimento<input type="date" name="Data de Nascimento" required /></p>
+    <p>Cidade
+          <select required>
+            <option value=""></option>
+            <option value="Morho">Morrinhos</option>
+            <option value="Brla">Brasilia</option>
+            <option value="Piracan">Piracanjuba</option>
+            <option value="Milan">Milano</option>
+            <option value="Barcel">Barcellona</option>
+            <option value="hamina">hamina</option>
+          </select>
+    </p>
+    <p>Estado
+              <select required>
+                <option value=""></option>
+                <option value="Goias">Goias</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="Milan">Milano</option>
+                <option value="Barcel">Barcellona</option>
+                <option value="Kylkso">Kymenlaakso</option>
+              </select>
+        </p>
+    <p>País
+              <select required>
+                <option value=""></option>
+                <option value="FI">Finland</option>
+                <option value="Br">Brasil</option>
+                <option value="IT">Italia</option>
+                <option value="SP">EspaÑa</option>
+              </select>
+        </p>
+    <p>Sexo
+      <form required>
+        <input type="radio" name="Sex" value="M"> Mulher
+        <input type="radio" name="Sex" value="H"> Homen
+        <input type="radio" name="Sex" value="O"> Outros
+      </form>
+    </p>
+    <p>Idiomas
+      <form required>
+        <input type="checkbox" name="Idiomas" value="En">English<br>
+        <input type="checkbox" name="Idiomas" value="PtBra">Portugues (br)<br>
+        <input type="checkbox" name="Idiomas" value="Ptgal">Portugues (Prt)<br>
+        <input type="checkbox" name="Idiomas" value="ITano">Italiano<br>
+        <input type="checkbox" name="Idiomas" value="Esp">EspaÑol<br>
+      </form>
+    <p>Idade <input type="number" min="18" max="120" name="Idade" required /></p>
+    </fieldset>
+    <fieldset>
+
+    <legend>Dados da Conta</legend>
+
+      Username <input type="Text" name="username" required />
+      Password <input type="password" name="password" required />
+
+    </fieldset>
+    <fieldset>
+
+    <legend>Endereço</legend>
+
+    <p>Rua<input type="text" name="Rua" required /></p>
+    <p>Número<input type="number" name="numer" required /></p>
+    <p>Complemento<input type="text" name="Comple" required /></p>
+    <p>Bairro<input type="text" name="Bairo" required /></p>
+    <p>Cidade
+          <select required>
+            <option value=""></option>
+            <option value="Morho">Morrinhos</option>
+            <option value="Brla">Brasilia</option>
+            <option value="Piracan">Piracanjuba</option>
+            <option value="Milan">Milano</option>
+            <option value="Barcel">Barcellona</option>
+            <option value="hamina">hamina</option>
+          </select>
+    </p>
+    <p>Estado
+              <select required>
+                <option value=""></option>
+                <option value="Goias">Goias</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="Milan">Milano</option>
+                <option value="Barcel">Barcellona</option>
+                <option value="Kylkso">Kymenlaakso</option>
+              </select>
+        </p>
+    <p>País
+              <select required>
+                <option value=""></option>
+                <option value="FI">Finland</option>
+                <option value="Br">Brasil</option>
+                <option value="IT">Italia</option>
+                <option value="SP">EspaÑa</option>
+              </select>
+        </p>
+
+    </fieldset>
+
+    <fieldset>
+
+    <legend>Filiação</legend>
+
+    <p>Nome Pai<input type="Text" name="NomeP" required /> </p>
+    <p>Nome Mae<input type="number" name="NomeM" required /> </p>
+
+    </fieldset>
+
+    <fieldset>
+
+    <legend>Outras informações</legend>
+
+    <p>Doce preferido<input type="Text" name="Docep" required autocomplete="on" list="DocepDL"/>
+      <datalist id="DocepDL">
+        <option value="Bolo de chocolate">
+        <option value="Bolo de maça">
+        <option value="Bolo de morango">
+        <option value="crepe">
+        <option value="doçe de leite">
+        <option value="brioches">
+      </datalist>
+     </p>
+
+     <p>Comprovante pagamento <input type="file" name="file1" required></p>
+    <p>Peso <input type="range" min="12" max="500" step="1" name="peso" required /></p>
+    <p>Altura <input type="range" min="1" max="3" step="0.01" name="peso" required /></p>
+    <p>Mensagem <textarea></textarea></p>
+
+    </fieldset>
+
+
+    <input type="submit" value="Enviar">
+    <input type="reset">
+  </form>
+  </body>
+</html>
